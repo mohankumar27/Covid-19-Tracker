@@ -1,0 +1,20 @@
+.table {
+    margin-top: 20px;
+    overflow-y: auto;
+    height: 400px;
+    color: #6a5d5d;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.5rem;
+    border: none
+}
+
+.table tr:nth-of-type(odd) { /* setting odd numbered rows to different colors*/
+    background-color: #f3f2f8;
+}
